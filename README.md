@@ -227,28 +227,8 @@ http://127.0.0.1:8000
    * Forgot Password
    * Reset Password
 
----
-
-## 📁 Struktur Penting
-
-```
-app/
-resources/views/
-routes/web.php
-database/migrations/
-```
----
-
-## 🎯 Tujuan Project
-
-* Mengimplementasikan authentication di Laravel
-* Menerapkan keamanan password hashing
-* Menggunakan email verification & reset password
-* Mendesain UI modern minimalist
-* Studi kasus aplikasi toko roti digital
-
 ---------------------------------
-# TAMPILAN APLIKASI WEB "Crumb & Co."
+## TAMPILAN APLIKASI WEB "Crumb & Co."
 Halaman Login
 ![alt text](image.png)
 
