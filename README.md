@@ -1,11 +1,11 @@
-# Web Aplikasi dengan Fitur Authentication (Laravel 8)
 # 🥐 Crumb & Co.
+# Web Aplikasi dengan Fitur Authentication (Laravel 8)
 
 ## 📌 Deskripsi
 
 Project ini merupakan implementasi **sistem authentication** pada aplikasi web toko roti pastry bernama **Crumb & Co.**
 
-Aplikasi ini menampilkan desain **modern minimalist** dengan color palette: Ungu Lilac, Putih, dan Cream.
+Aplikasi ini menggunakan desain **modern minimalist** dengan color palette: Ungu Lilac, Putih, dan Cream.
 
 Sistem dibangun menggunakan Laravel 8 (compatible dengan PHP 7.3.33) dan berfokus pada **keamanan data pengguna serta pengalaman user yang sederhana dan elegan**.
 
@@ -70,37 +70,13 @@ Fitur ini menggunakan:
 
 ---
 
-## 🎨 Konsep UI
-
-Desain aplikasi menggunakan gaya **modern minimalist** dengan ciri:
-
-* Clean layout
-* Soft color
-* Rounded button
-* Simple typography
-
-Contoh warna:
-
-```css
-:root {
-  --lilac: #C8A2C8;
-  --cream: #FFF5E1;
-  --white: #FFFFFF;
-}
-```
-
----
-
 ## 🚀 Cara Menjalankan Project
 
-### 1. Clone / Buat Project
-
-Jika dari awal:
+### 1. Clone Repository
 
 ```bash
-composer create-project --prefer-dist laravel/laravel crumb-co "8.*"
-composer require laravel/ui:^3.4
-cd crumb-co
+git clone https://github.com/yesha-23/Crumbco-ksi.git
+cd Crumbco-ksi
 ```
 
 ---
@@ -109,6 +85,7 @@ cd crumb-co
 
 ```bash
 composer install
+npm install
 ```
 
 ---
@@ -121,25 +98,7 @@ cp .env.example .env
 
 ---
 
-### 4. Generate Application Key
-
-```bash
-php artisan key:generate
-```
-
----
-
-## 🗄️ Konfigurasi Database
-
-### 1. Buat Database
-
-```sql
-CREATE DATABASE crumb_co;
-```
-
----
-
-### 2. Setting `.env`
+### 4. Konfigurasi File .env
 
 ```env
 DB_DATABASE=crumb_co
@@ -149,10 +108,34 @@ DB_PASSWORD=
 
 ---
 
-### 3. Jalankan Migration
+### 5. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+---
+
+### 6. Jalankan Migration
 
 ```bash
 php artisan migrate
+```
+
+---
+
+### 7. Build Frontend
+
+```bash
+npm run dev
+```
+
+---
+
+### 8. Jalankan Server
+
+```bash
+php artisan serve
 ```
 
 ---
@@ -201,20 +184,6 @@ MAIL_FROM_NAME="Crumb & Co."
 
 ---
 
-## ▶️ Menjalankan Server
-
-```bash
-php artisan serve
-```
-
-Akses di browser:
-
-```
-http://127.0.0.1:8000
-```
-
----
-
 ## 🧪 Testing Sistem
 
 1. Register akun baru
@@ -222,30 +191,29 @@ http://127.0.0.1:8000
 3. Verifikasi akun
 4. Login
 5. Coba fitur:
-
    * Logout
    * Forgot Password
    * Reset Password
 
 ---------------------------------
 ## TAMPILAN APLIKASI WEB "Crumb & Co."
-Halaman Login
+### Halaman Login
 ![alt text](image.png)
 
-Halaman Daftar/Registrasi
+### Halaman Daftar/Registrasi
 ![alt text](image-1.png)
 
-Halaman Reset Password
+### Halaman Reset Password
 ![alt text](image-2.png)
 
-Verification Email
+### Verification Email
 ![alt text](image-3.png)
 
-Halaman Verification Email
+### Halaman Verification Email
 ![alt text](image-4.png)
 
-Halaman Home
+### Halaman Home
 ![alt text](image-5.png)
 
-Halaman Home/Menu
+### Halaman Home/Menu
 ![alt text](image-6.png)
