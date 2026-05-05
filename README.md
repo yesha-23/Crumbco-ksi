@@ -2,6 +2,7 @@
 ## Web Aplikasi dengan Fitur Authentication (Laravel 8)
 By : Yesha Victoria Atmaja (72230624)
 
+
 ## 📌 Deskripsi
 
 Project ini merupakan implementasi **sistem authentication** pada aplikasi web toko roti pastry bernama **Crumb & Co.**
@@ -36,8 +37,6 @@ Contoh:
 Hash::make($request->password);
 ```
 
----
-
 ### 2. Email Verification
 Setelah registrasi, user wajib melakukan verifikasi email sebelum dapat mengakses sistem.
 
@@ -46,8 +45,6 @@ Menggunakan fitur:
 ```php
 MustVerifyEmail
 ```
-
----
 
 ### 3. Password Reset
 
@@ -80,8 +77,6 @@ git clone https://github.com/yesha-23/Crumbco-ksi.git
 cd Crumbco-ksi
 ```
 
----
-
 ### 2. Install Dependency
 
 ```bash
@@ -89,15 +84,11 @@ composer install
 npm install
 ```
 
----
-
 ### 3. Copy File Environment
 
 ```bash
 cp .env.example .env
 ```
-
----
 
 ### 4. Konfigurasi File .env
 
@@ -107,15 +98,11 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
----
-
 ### 5. Generate Application Key
 
 ```bash
 php artisan key:generate
 ```
-
----
 
 ### 6. Jalankan Migration
 
@@ -123,15 +110,11 @@ php artisan key:generate
 php artisan migrate
 ```
 
----
-
 ### 7. Build Frontend
 
 ```bash
 npm run dev
 ```
-
----
 
 ### 8. Jalankan Server
 
