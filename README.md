@@ -140,19 +140,6 @@ php artisan serve
 
 ---
 
-## 🔐 Setup Authentication
-
-Install UI Laravel:
-
-```bash
-composer require laravel/ui:^3.4
-php artisan ui bootstrap --auth
-npm install
-npm run dev
-```
-
----
-
 ## 📧 Konfigurasi Email (Mailtrap)
 
 Project ini menggunakan **Mailtrap** untuk testing:
@@ -194,6 +181,14 @@ MAIL_FROM_NAME="Crumb & Co."
    * Logout
    * Forgot Password
    * Reset Password
+
+## ⚠️ Catatan
+1. Pastikan sudah menginstall:
+   * PHP >= 7.3
+   * Composer
+   * Node.js & NPM
+   * MySQL / MariaDB
+2. File .env tidak disertakan dalam repository (untuk keamanan), jadi wajib dibuat dari .env.example
 
 ---------------------------------
 ## TAMPILAN APLIKASI WEB "Crumb & Co."
