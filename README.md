@@ -212,3 +212,6 @@ MAIL_FROM_NAME="Crumb & Co."
 
 ### Halaman Home/Menu
 ![alt text](image-6.png)
+
+### Password telah di Hash
+![alt text](image-7.png)
