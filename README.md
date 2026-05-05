@@ -1,6 +1,6 @@
 # 🥐 Crumb & Co.
-# Web Aplikasi dengan Fitur Authentication (Laravel 8)
-## By : Yesha Victoria Atmaja (72230624)
+## Web Aplikasi dengan Fitur Authentication (Laravel 8)
+By : Yesha Victoria Atmaja (72230624)
 
 ## 📌 Deskripsi
 
