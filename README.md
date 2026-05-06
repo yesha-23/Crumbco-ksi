@@ -180,7 +180,7 @@ MAIL_FROM_NAME="Crumb & Co."
 ![alt text](image.png)
 
 ### Halaman Daftar/Registrasi
-![alt text](image-1.png)
+![alt text](image-8.png)
 
 ### Halaman Reset Password
 ![alt text](image-2.png)
@@ -191,11 +191,14 @@ MAIL_FROM_NAME="Crumb & Co."
 ### Halaman Verification Email
 ![alt text](image-4.png)
 
-### Halaman Home
-![alt text](image-5.png)
+### Halaman Welcome *1
+![alt text](image-10.png)
 
-### Halaman Home/Menu
-![alt text](image-6.png)
+### Halaman Welcome *2
+![alt text](image-11.png)
+
+### Halaman Home
+![alt text](image-9.png)
 
 ### Password telah di Hash
 ![alt text](image-7.png)

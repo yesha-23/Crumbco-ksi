@@ -253,7 +253,7 @@
         <!-- Illustration Side -->
         <div class="auth-illustration">
             <div class="big-emoji">🧁</div>
-            <h2>Bergabung dengan keluarga kami!</h2>
+            <h2>Bergabunglah dengan kami!</h2>
             <ul class="perks">
                 <li>Akses menu eksklusif member</li>
                 <li>Notifikasi pastry edisi terbatas</li>
